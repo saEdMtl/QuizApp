@@ -1,0 +1,96 @@
+a {
+    text-decoration: none;
+}
+
+.welcome {
+    color: #B94D38;
+    font-size: 10px;
+}
+
+.category {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    border-radius: 5px;
+    position: relative;
+    z-index: 1;
+    transition: all .4s;
+    margin: 0 0 -200px 0;
+    font-family: "Franklin Gothic Medium";
+    font-size: 24px;
+    font-weight: bold;
+    color: #B94D38;
+}
+
+
+.overlay {
+    background: #f0b64342;
+    width: 100%;
+    position: relative;
+    height: 200px;
+    border-radius: 5px;
+    z-index: 2;
+    transition: all .4s;
+    cursor: pointer;
+}
+
+.overlay:hover {
+    opacity: 0;
+}
+
+.options {
+    background-color: transparent;
+    border: 1px solid #F0B643;
+    color: #3A4A55;
+    font-family: "Franklin Gothic Medium";
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 10px 0 0 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.options:hover {
+    background-color: #F0B643;
+}
+
+.show {
+    display: inline;
+}
+
+.hiddenn {
+    display: none;
+}
+
+.buttons {
+    padding: 14px;
+    background-color: #F0B643;
+    color: #B94D38;
+    border-radius: 5px;
+    font-family: " Franklin Gothic Medium";
+    font-size: 16px;
+}
+
+@media screen and (max-width:900px) {
+    .options {
+        font-size: 18px;
+        padding: 8px 16px;
+    }
+
+}
+
+@media screen and (max-width:900px) {
+    .options {
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    .buttons {
+        padding: 12px;
+        font-size: 14px;
+    }
+}
